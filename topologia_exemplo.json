@@ -1,0 +1,46 @@
+{
+  "sites": [
+    {
+      "nome": "Matriz - SP",
+      "links": [
+        {
+          "nome": "MPLS-Primario",
+          "tipo": "MPLS",
+          "host_ping": "10.0.0.1",
+          "capacidade_mbps": 100,
+          "snmp": {
+            "agente": "10.0.0.1",
+            "community": "public",
+            "if_index": 2
+          }
+        },
+        {
+          "nome": "Internet-Backup",
+          "tipo": "INTERNET",
+          "host_ping": "8.8.8.8",
+          "capacidade_mbps": 50,
+          "snmp": null
+        }
+      ]
+    },
+    {
+      "nome": "Filial - Campinas",
+      "links": [
+        {
+          "nome": "Internet-Primaria",
+          "tipo": "INTERNET",
+          "host_ping": "1.1.1.1",
+          "capacidade_mbps": 30,
+          "snmp": null
+        },
+        {
+          "nome": "LTE-Backup",
+          "tipo": "LTE",
+          "host_ping": "1.0.0.1",
+          "capacidade_mbps": 20,
+          "snmp": null
+        }
+      ]
+    }
+  ]
+}
