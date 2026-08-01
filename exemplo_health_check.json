@@ -1,0 +1,17 @@
+{
+  "results": [
+    {
+      "name": "Internet_Principal",
+      "members": [
+        {"interface": "wan1", "status": "up", "latency": 18.4, "jitter": 2.1, "packetloss": 0.0},
+        {"interface": "wan2", "status": "up", "latency": 210.5, "jitter": 45.2, "packetloss": 8.5}
+      ]
+    },
+    {
+      "name": "Backup_LTE",
+      "members": [
+        {"interface": "lte1", "status": "down", "latency": null, "jitter": null, "packetloss": null}
+      ]
+    }
+  ]
+}
